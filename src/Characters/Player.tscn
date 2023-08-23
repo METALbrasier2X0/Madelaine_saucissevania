@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://bosrdie1t2d8j"]
+
+[ext_resource type="Script" path="res://src/Characters/Player.gd" id="1_8jh1x"]
+[ext_resource type="Texture2D" uid="uid://cx2fu5ywb1a3k" path="res://Assets/Ida_main_avance22.png" id="2_h0hdf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i0a2f"]
+size = Vector2(49, 99)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_o7m8m"]
+radius = 27.0
+height = 70.0
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_8jh1x")
+
+[node name="IdaMainAvance22" type="Sprite2D" parent="."]
+texture = ExtResource("2_h0hdf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_i0a2f")
+
+[node name="Hurtbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource("CapsuleShape2D_o7m8m")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position_smoothing_enabled = true
+
+[node name="InvulerabilityTimer" type="Timer" parent="."]
+wait_time = 3.457
+one_shot = true
+
+[connection signal="body_entered" from="Hurtbox" to="." method="_on_hurtbox_body_entered"]
