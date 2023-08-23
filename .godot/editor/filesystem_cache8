@@ -1,0 +1,18 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1692834128
+icon.svg::CompressedTexture2D::2997075954314894767::1692832889::1692833017::1::::<><>::
+README.md::TextFile::-1::1692832889::0::1::::<><>::
+::res://Assets/::1692834128
+::res://Assets/Proto lol/::1692834128
+Fx4am47aEAA_-tX.jpg::CompressedTexture2D::3593665412735962912::1692832889::1692834126::1::::<><>::
+Ida_main_avance22.png::CompressedTexture2D::6443263885040239970::1692832889::1692834128::1::::<><>::
+::res://src/::1692833088
+Characters.gd::GDScript::-1::1692832889::0::1::::Characters<>CharacterBody2D<>::
+Main.tscn::PackedScene::406263641408469078::1692833088::0::1::::<><>::uid://bosrdie1t2d8j::::res://src/Characters/Player.tscn<>uid://bec6ugsmq7rqt::::res://src/Env/sandbox.tscn<>uid://cmuqpmmwpksev::::res://src/Characters/Enemy.tscn
+::res://src/Characters/::1692834128
+Enemy.gd::GDScript::-1::1692832889::0::1::::<>Characters<>::
+Enemy.tscn::PackedScene::5657393954754516197::1692834126::0::1::::<><>::res://src/Characters/Enemy.gd<>uid://brg2e523g5wqy
+Player.gd::GDScript::-1::1692832889::0::1::::<>Characters<>::
+Player.tscn::PackedScene::3407261268031171007::1692834128::0::1::::<><>::res://src/Characters/Player.gd<>uid://cx2fu5ywb1a3k::::res://Assets/Proto lol/Ida_main_avance22.png
+::res://src/Env/::1692832889
+sandbox.tscn::PackedScene::2673223099921673207::1692832889::0::1::::<><>::uid://bix2nx8ay1hpf

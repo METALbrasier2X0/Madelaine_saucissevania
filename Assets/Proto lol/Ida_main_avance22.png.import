@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx2fu5ywb1a3k"
-path="res://.godot/imported/Ida_main_avance22.png-b912443d5d3c5f34a531b243562cc6e5.ctex"
+path="res://.godot/imported/Ida_main_avance22.png-532bde332f08319aefe4dcbcecb45084.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Ida_main_avance22.png"
-dest_files=["res://.godot/imported/Ida_main_avance22.png-b912443d5d3c5f34a531b243562cc6e5.ctex"]
+source_file="res://Assets/Proto lol/Ida_main_avance22.png"
+dest_files=["res://.godot/imported/Ida_main_avance22.png-532bde332f08319aefe4dcbcecb45084.ctex"]
 
 [params]
 

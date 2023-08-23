@@ -1,7 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://cmuqpmmwpksev"]
 
 [ext_resource type="Script" path="res://src/Characters/Enemy.gd" id="1_e3oll"]
-[ext_resource type="Texture2D" uid="uid://brg2e523g5wqy" path="res://Assets/Fx4am47aEAA_-tX.jpg" id="2_riqsp"]
+[ext_resource type="Texture2D" uid="uid://brg2e523g5wqy" path="res://Assets/Proto lol/Fx4am47aEAA_-tX.jpg" id="2_riqsp"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0a2f"]
 size = Vector2(49, 50.25)
